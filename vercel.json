@@ -1,0 +1,4 @@
+{
+  "crons": [{ "path": "/api/cron/prune", "schedule": "0 3 * * *" }],
+  "functions": { "app/api/**/route.ts": { "maxDuration": 30 } }
+}
